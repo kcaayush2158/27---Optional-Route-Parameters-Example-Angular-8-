@@ -7,7 +7,7 @@ import { from } from 'rxjs';
   template: `
   
     <p>
-    you selected the   department-detail with id = {{departmentId}}
+    you selected the  department-detail with id = {{departmentId}}
     </p>
     <button (click)="goNext()">Next</button><br>
     <button (click)="goPrevious()">Previous</button>
